@@ -5,6 +5,7 @@ from fastapi.security import HTTPBasic, HTTPBasicCredentials
 
 
 
+
 app = FastAPI()
 security = HTTPBasic()
 
@@ -140,3 +141,4 @@ def retrieve_docs(message, role):
         else:
             return ["HR Handbook"]
     
+
