@@ -17,7 +17,7 @@ def load_vectorstore():
     return vectorstore
 
 
-# 🔥 MAIN FUNCTION (RBAC Retrieval)
+#  MAIN FUNCTION (RBAC Retrieval)
 
 def retrieve_with_rbac(query, role):
 
