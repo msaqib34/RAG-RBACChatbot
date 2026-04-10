@@ -25,8 +25,8 @@ def retrieve_with_rbac(query, role):
 
     retriever = vectorstore.as_retriever(
         search_kwargs={
-            "k": 10,
-            "filter": {"role": role}   # ✅ IMPORTANT FIX
+            "k": 15,
+            "filter": {"role": role}   
         }
     )
 
